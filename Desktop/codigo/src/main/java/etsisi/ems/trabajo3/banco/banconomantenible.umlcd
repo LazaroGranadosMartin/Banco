@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_POnQIEotEeipH_dXzW_EZw">
+  <modelElement href="banconomantenible.uml#_PW30QEotEeipH_dXzW_EZw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_P9qHcEotEeipH_dXzW_EZw" sourceAnchor="886.0,165.0" targetAnchor="0.0,116.0" target="_P-M6AEotEeipH_dXzW_EZw" source="_P9rVkEotEeipH_dXzW_EZw">
+    <modelElement href="banconomantenible.uml#_PYYQIEotEeipH_dXzW_EZw"/>
+    <stereotypes xmi:id="_P9qHcUotEeipH_dXzW_EZw" name="Reference">
+      <modelElement href="banconomantenible.uml#_PYYQIkotEeipH_dXzW_EZw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_P9qHckotEeipH_dXzW_EZw" text="">
+      <visualProperties xmi:id="_QMcxYEotEeipH_dXzW_EZw" position="-18.0,-19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_P9qHc0otEeipH_dXzW_EZw" aggregationKind="NONE" name="">
+      <modelElement href="banconomantenible.uml#_PYYQIUotEeipH_dXzW_EZw"/>
+      <visualProperties xmi:id="_QMcKUEotEeipH_dXzW_EZw" position="15.0,-47.0"/>
+      <visibility xmi:id="_P9qHdEotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9qHdUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_P9qHdkotEeipH_dXzW_EZw" aggregationKind="NONE" name="mCuentaAsociada" navigable="true">
+      <modelElement href="banconomantenible.uml#_PYHKYEotEeipH_dXzW_EZw"/>
+      <visualProperties xmi:id="_QMcxYUotEeipH_dXzW_EZw" position="-164.66666666666674,2.0"/>
+      <visibility xmi:id="_P9qHd0otEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9qHeEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_P9qugEotEeipH_dXzW_EZw" source="_P9rVkEotEeipH_dXzW_EZw">
+    <modelElement href="banconomantenible.uml#_PYYQI0otEeipH_dXzW_EZw"/>
+    <stereotypes xmi:id="_P9qugUotEeipH_dXzW_EZw" name="Reference">
+      <modelElement href="banconomantenible.uml#_PYY3MEotEeipH_dXzW_EZw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_P9qugkotEeipH_dXzW_EZw" text=""/>
+    <sourceRole xmi:id="_P9qug0otEeipH_dXzW_EZw" aggregationKind="NONE" name="">
+      <modelElement href="banconomantenible.uml#_PYYQJEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P9quhEotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9quhUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_P9quhkotEeipH_dXzW_EZw" aggregationKind="NONE" name="mMovimientos" navigable="true">
+      <modelElement href="banconomantenible.uml#_PYHxcUotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P9quh0otEeipH_dXzW_EZw" label="#"/>
+      <cardinality xmi:id="_P9quiEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_P9quiUotEeipH_dXzW_EZw" source="_P9rVkEotEeipH_dXzW_EZw">
+    <modelElement href="banconomantenible.uml#_PYY3MUotEeipH_dXzW_EZw"/>
+    <stereotypes xmi:id="_P9quikotEeipH_dXzW_EZw" name="Reference">
+      <modelElement href="banconomantenible.uml#_PYY3M0otEeipH_dXzW_EZw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_P9qui0otEeipH_dXzW_EZw" text=""/>
+    <sourceRole xmi:id="_P9qujEotEeipH_dXzW_EZw" aggregationKind="NONE" name="">
+      <modelElement href="banconomantenible.uml#_PYY3MkotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P9qujUotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9qujkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_P9quj0otEeipH_dXzW_EZw" aggregationKind="NONE" name="mFechaDeCaducidad" navigable="true">
+      <modelElement href="banconomantenible.uml#_PYI_kEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P9qukEotEeipH_dXzW_EZw" label="~"/>
+      <cardinality xmi:id="_P9qukUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_P99pcEotEeipH_dXzW_EZw" source="_P-M6AEotEeipH_dXzW_EZw">
+    <modelElement href="banconomantenible.uml#_PYY3NEotEeipH_dXzW_EZw"/>
+    <stereotypes xmi:id="_P-Kdw0otEeipH_dXzW_EZw" name="Reference">
+      <modelElement href="banconomantenible.uml#_PYZeQEotEeipH_dXzW_EZw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_P-KdwEotEeipH_dXzW_EZw" text=""/>
+    <sourceRole xmi:id="_P-KdwUotEeipH_dXzW_EZw" aggregationKind="NONE" name="">
+      <modelElement href="banconomantenible.uml#_PYY3NUotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P-LE0UotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-LE0EotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_P-KdwkotEeipH_dXzW_EZw" aggregationKind="NONE" name="mMovimientos" navigable="true">
+      <modelElement href="banconomantenible.uml#_PYLb0UotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P-LE00otEeipH_dXzW_EZw" label="#"/>
+      <cardinality xmi:id="_P-LE0kotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_P-d_wEotEeipH_dXzW_EZw" sourceAnchor="237.0,0.0" targetAnchor="162.0,233.0" target="_P-M6AEotEeipH_dXzW_EZw" source="_P-7SxUotEeipH_dXzW_EZw">
+    <modelElement href="banconomantenible.uml#_PYZeQUotEeipH_dXzW_EZw"/>
+    <stereotypes xmi:id="_P-vFg0otEeipH_dXzW_EZw" name="Reference">
+      <modelElement href="banconomantenible.uml#_PYZeQ0otEeipH_dXzW_EZw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_P-vFgEotEeipH_dXzW_EZw" text="">
+      <visualProperties xmi:id="_QMd_gEotEeipH_dXzW_EZw" position="-19.0,-13.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_P-vFgUotEeipH_dXzW_EZw" aggregationKind="NONE" name="">
+      <modelElement href="banconomantenible.uml#_PYZeQkotEeipH_dXzW_EZw"/>
+      <visualProperties xmi:id="_QMdYcEotEeipH_dXzW_EZw" position="-21.0,-50.0"/>
+      <visibility xmi:id="_P-6rsUotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-6rsEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_P-vFgkotEeipH_dXzW_EZw" aggregationKind="NONE" name="mCuentaAsociada" navigable="true">
+      <modelElement href="banconomantenible.uml#_PYMC4UotEeipH_dXzW_EZw"/>
+      <visualProperties xmi:id="_QMd_gUotEeipH_dXzW_EZw" position="9.0,5.0"/>
+      <visibility xmi:id="_P-6rs0otEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-6rskotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_P-vFhEotEeipH_dXzW_EZw" source="_P-7SxUotEeipH_dXzW_EZw">
+    <modelElement href="banconomantenible.uml#_PYZeREotEeipH_dXzW_EZw"/>
+    <stereotypes xmi:id="_P-6ruEotEeipH_dXzW_EZw" name="Reference">
+      <modelElement href="banconomantenible.uml#_PYaFUEotEeipH_dXzW_EZw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_P-6rtUotEeipH_dXzW_EZw" text=""/>
+    <sourceRole xmi:id="_P-6rtkotEeipH_dXzW_EZw" aggregationKind="NONE" name="">
+      <modelElement href="banconomantenible.uml#_PYZeRUotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P-7SwUotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-7SwEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_P-6rt0otEeipH_dXzW_EZw" aggregationKind="NONE" name="mFechaDeCaducidad" navigable="true">
+      <modelElement href="banconomantenible.uml#_PYMp9EotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P-7Sw0otEeipH_dXzW_EZw" label="~"/>
+      <cardinality xmi:id="_P-7SwkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_P_QC4EotEeipH_dXzW_EZw" source="_P_odYUotEeipH_dXzW_EZw">
+    <modelElement href="banconomantenible.uml#_PYaFUUotEeipH_dXzW_EZw"/>
+    <stereotypes xmi:id="_P_n2U0otEeipH_dXzW_EZw" name="Reference">
+      <modelElement href="banconomantenible.uml#_PYaFU0otEeipH_dXzW_EZw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_P_n2UEotEeipH_dXzW_EZw" text=""/>
+    <sourceRole xmi:id="_P_n2UUotEeipH_dXzW_EZw" aggregationKind="NONE" name="">
+      <modelElement href="banconomantenible.uml#_PYaFUkotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P_n2VUotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P_n2VEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_P_n2UkotEeipH_dXzW_EZw" aggregationKind="NONE" name="mFecha" navigable="true">
+      <modelElement href="banconomantenible.uml#_PYN4EUotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P_n2V0otEeipH_dXzW_EZw" label="#"/>
+      <cardinality xmi:id="_P_n2VkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_QAJawEotEeipH_dXzW_EZw" sourceAnchor="432.0,0.0" targetAnchor="164.0,154.0" dashed="true" superClass="_QAmtwEotEeipH_dXzW_EZw" subClass="_P9rVkEotEeipH_dXzW_EZw">
+    <modelElement href="banconomantenible.uml#_PX1dk0otEeipH_dXzW_EZw"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_P-M6AEotEeipH_dXzW_EZw" name="Cuenta" associationsIn="_P9qHcEotEeipH_dXzW_EZw _P-d_wEotEeipH_dXzW_EZw" associationsOut="_P99pcEotEeipH_dXzW_EZw">
+    <modelElement href="banconomantenible.uml#_PXW8cEotEeipH_dXzW_EZw"/>
+    <visualProperties xmi:id="_P-M6AUotEeipH_dXzW_EZw" position="1180.0,421.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_P-M6AkotEeipH_dXzW_EZw" label="+"/>
+    <attributes xmi:id="_P-M6A0otEeipH_dXzW_EZw" name="mNumero">
+      <modelElement href="banconomantenible.uml#_PYK0wEotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P-M6BEotEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYK0wUotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P-M6BUotEeipH_dXzW_EZw" label="#"/>
+      <cardinality xmi:id="_P-M6BkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P-M6B0otEeipH_dXzW_EZw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P-M6CEotEeipH_dXzW_EZw" name="mTitular">
+      <modelElement href="banconomantenible.uml#_PYK0wkotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P-M6CUotEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYLb0EotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P-M6CkotEeipH_dXzW_EZw" label="#"/>
+      <cardinality xmi:id="_P-M6C0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P-M6DEotEeipH_dXzW_EZw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P-M6DUotEeipH_dXzW_EZw" name="mMovimientos">
+      <modelElement href="banconomantenible.uml#_PYLb0UotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P-M6DkotEeipH_dXzW_EZw" name="Generics">
+        <modelElement href="banconomantenible.uml#_PYLb0kotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_P-M6D0otEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYMC4EotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P-M6EEotEeipH_dXzW_EZw" label="#"/>
+      <cardinality xmi:id="_P-M6EUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P-M6EkotEeipH_dXzW_EZw" name="Vector">
+        <modelElement href="banconomantenible.uml#_PX02gEotEeipH_dXzW_EZw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_P-M6E0otEeipH_dXzW_EZw" name="Cuenta">
+      <modelElement href="banconomantenible.uml#_PXXjgEotEeipH_dXzW_EZw"/>
+      <keywords xmi:id="_P-M6FEotEeipH_dXzW_EZw" keyword="create"/>
+      <visibility xmi:id="_P-M6FUotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-M6FkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P-M6F0otEeipH_dXzW_EZw">
+        <modelElement href="banconomantenible.uml#_PXXjhUotEeipH_dXzW_EZw"/>
+        <type xmi:id="_P-M6GEotEeipH_dXzW_EZw" name="Cuenta">
+          <modelElement href="banconomantenible.uml#_PXW8cEotEeipH_dXzW_EZw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_P-M6GUotEeipH_dXzW_EZw" name="numero">
+        <modelElement href="banconomantenible.uml#_PXXjgUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-M6GkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-M6G0otEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P-M6HEotEeipH_dXzW_EZw" name="titular">
+        <modelElement href="banconomantenible.uml#_PXXjgkotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-M6HUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-M6HkotEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P-M6H0otEeipH_dXzW_EZw" name="ingresar">
+      <modelElement href="banconomantenible.uml#_PXYKkEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P-M6IEotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-M6IUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P-M6IkotEeipH_dXzW_EZw" name="x">
+        <modelElement href="banconomantenible.uml#_PXYKkUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-M6I0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-M6JEotEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P-M6JUotEeipH_dXzW_EZw" name="retirar">
+      <modelElement href="banconomantenible.uml#_PXYKkkotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P-M6JkotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-M6J0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P-M6KEotEeipH_dXzW_EZw" name="x">
+        <modelElement href="banconomantenible.uml#_PXYKk0otEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-M6KUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-M6KkotEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P-M6K0otEeipH_dXzW_EZw" name="ingresar">
+      <modelElement href="banconomantenible.uml#_PXYxoEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P-M6LEotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-M6LUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P-M6LkotEeipH_dXzW_EZw" name="concepto">
+        <modelElement href="banconomantenible.uml#_PXYxoUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-M6L0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-M6MEotEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P-M6MUotEeipH_dXzW_EZw" name="x">
+        <modelElement href="banconomantenible.uml#_PXYxokotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-M6MkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-M6M0otEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P-M6NEotEeipH_dXzW_EZw" name="retirar">
+      <modelElement href="banconomantenible.uml#_PXYxo0otEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P-M6NUotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-M6NkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P-M6N0otEeipH_dXzW_EZw" name="concepto">
+        <modelElement href="banconomantenible.uml#_PXZYsEotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-M6OEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-M6OUotEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P-M6OkotEeipH_dXzW_EZw" name="x">
+        <modelElement href="banconomantenible.uml#_PXZYsUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-M6O0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-M6PEotEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P-M6PUotEeipH_dXzW_EZw" name="getSaldo">
+      <modelElement href="banconomantenible.uml#_PXZYskotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P-M6PkotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-M6P0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P-M6QEotEeipH_dXzW_EZw">
+        <modelElement href="banconomantenible.uml#_PXZYs0otEeipH_dXzW_EZw"/>
+        <type xmi:id="_P-M6QUotEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_P-M6QkotEeipH_dXzW_EZw" name="addMovimiento">
+      <modelElement href="banconomantenible.uml#_PX5H8EotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P-M6Q0otEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-M6REotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P-M6RUotEeipH_dXzW_EZw" name="m">
+        <modelElement href="banconomantenible.uml#_PX5H8UotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-M6RkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-M6R0otEeipH_dXzW_EZw" name="Movimiento">
+          <modelElement href="banconomantenible.uml#_PXe4QEotEeipH_dXzW_EZw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_P_odYUotEeipH_dXzW_EZw" name="Movimiento" associationsOut="_P_QC4EotEeipH_dXzW_EZw">
+    <modelElement href="banconomantenible.uml#_PXe4QEotEeipH_dXzW_EZw"/>
+    <visualProperties xmi:id="_P_odYkotEeipH_dXzW_EZw" position="12.0,1133.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_P_odY0otEeipH_dXzW_EZw" label="+"/>
+    <attributes xmi:id="_P_odZEotEeipH_dXzW_EZw" name="mConcepto">
+      <modelElement href="banconomantenible.uml#_PYNRAUotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P_odZUotEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYN4EEotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P_odZkotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P_odZ0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P_odaEotEeipH_dXzW_EZw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P_odaUotEeipH_dXzW_EZw" name="mFecha">
+      <modelElement href="banconomantenible.uml#_PYN4EUotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P_odakotEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYN4EkotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P_oda0otEeipH_dXzW_EZw" label="#"/>
+      <cardinality xmi:id="_P_odbEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P_odbUotEeipH_dXzW_EZw" name="LocalDate">
+        <modelElement href="banconomantenible.uml#_PX02gkotEeipH_dXzW_EZw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P_odbkotEeipH_dXzW_EZw" name="mImporte">
+      <modelElement href="banconomantenible.uml#_PYN4E0otEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P_odb0otEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYOfIEotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P_odcEotEeipH_dXzW_EZw" label="-"/>
+      <cardinality xmi:id="_P_odcUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P_odckotEeipH_dXzW_EZw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P_odc0otEeipH_dXzW_EZw" name="mLiquidado">
+      <modelElement href="banconomantenible.uml#_PYOfIUotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P_oddEotEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYOfIkotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P_oddUotEeipH_dXzW_EZw" label="-"/>
+      <cardinality xmi:id="_P_oddkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P_odd0otEeipH_dXzW_EZw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_P_odeEotEeipH_dXzW_EZw" name="Movimiento">
+      <modelElement href="banconomantenible.uml#_PXffUEotEeipH_dXzW_EZw"/>
+      <keywords xmi:id="_P_odeUotEeipH_dXzW_EZw" keyword="create"/>
+      <visibility xmi:id="_P_odekotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P_ode0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P_odfEotEeipH_dXzW_EZw">
+        <modelElement href="banconomantenible.uml#_PXffU0otEeipH_dXzW_EZw"/>
+        <type xmi:id="_P_odfUotEeipH_dXzW_EZw" name="Movimiento">
+          <modelElement href="banconomantenible.uml#_PXe4QEotEeipH_dXzW_EZw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_P_odfkotEeipH_dXzW_EZw" name="getImporte">
+      <modelElement href="banconomantenible.uml#_PXffVEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P_odf0otEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P_odgEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P_odgUotEeipH_dXzW_EZw">
+        <modelElement href="banconomantenible.uml#_PXffVUotEeipH_dXzW_EZw"/>
+        <type xmi:id="_P_odgkotEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_P_odg0otEeipH_dXzW_EZw" name="getConcepto">
+      <modelElement href="banconomantenible.uml#_PXgGYEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P_odhEotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P_odhUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P_odhkotEeipH_dXzW_EZw">
+        <modelElement href="banconomantenible.uml#_PXgGYUotEeipH_dXzW_EZw"/>
+        <type xmi:id="_P_odh0otEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_P_odiEotEeipH_dXzW_EZw" name="setConcepto">
+      <modelElement href="banconomantenible.uml#_PXgGYkotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P_odiUotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P_odikotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P_odi0otEeipH_dXzW_EZw" name="newMConcepto">
+        <modelElement href="banconomantenible.uml#_PXgGY0otEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P_odjEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P_odjUotEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P_odjkotEeipH_dXzW_EZw" name="getFecha">
+      <modelElement href="banconomantenible.uml#_PXgGZEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P_odj0otEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P_odkEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P_odkUotEeipH_dXzW_EZw">
+        <modelElement href="banconomantenible.uml#_PYFVMEotEeipH_dXzW_EZw"/>
+        <type xmi:id="_P_odkkotEeipH_dXzW_EZw" name="LocalDate">
+          <modelElement href="banconomantenible.uml#_PX02gkotEeipH_dXzW_EZw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_P_odk0otEeipH_dXzW_EZw" name="setImporte">
+      <modelElement href="banconomantenible.uml#_PXgtcEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P_odlEotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P_odlUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P_odlkotEeipH_dXzW_EZw" name="newMImporte">
+        <modelElement href="banconomantenible.uml#_PXgtcUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P_odl0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P_odmEotEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P_odmUotEeipH_dXzW_EZw" name="isLiquidado">
+      <modelElement href="banconomantenible.uml#_PXgtckotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P_odmkotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P_odm0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P_odnEotEeipH_dXzW_EZw">
+        <modelElement href="banconomantenible.uml#_PXgtc0otEeipH_dXzW_EZw"/>
+        <type xmi:id="_P_odnUotEeipH_dXzW_EZw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_P_odnkotEeipH_dXzW_EZw" name="setLiquidado">
+      <modelElement href="banconomantenible.uml#_PXhUgEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P_odn0otEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P_odoEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P_odoUotEeipH_dXzW_EZw" name="mliquidado">
+        <modelElement href="banconomantenible.uml#_PXhUgUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P_odokotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P_odo0otEeipH_dXzW_EZw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P_odpEotEeipH_dXzW_EZw" name="setFecha">
+      <modelElement href="banconomantenible.uml#_PYFVMUotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P_odpUotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P_odpkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P_odp0otEeipH_dXzW_EZw" name="newMFecha">
+        <modelElement href="banconomantenible.uml#_PYFVMkotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P_odqEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P_odqUotEeipH_dXzW_EZw" name="LocalDate">
+          <modelElement href="banconomantenible.uml#_PX02gkotEeipH_dXzW_EZw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_QAmtwEotEeipH_dXzW_EZw" name="Tarjeta" subclassedBy="_QAJawEotEeipH_dXzW_EZw">
+    <modelElement href="banconomantenible.uml#_PXiioEotEeipH_dXzW_EZw"/>
+    <visualProperties xmi:id="_QAmtwUotEeipH_dXzW_EZw" position="293.0,148.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_QAmtwkotEeipH_dXzW_EZw" label="+"/>
+    <attributes xmi:id="_QAmtw0otEeipH_dXzW_EZw" name="saldo">
+      <modelElement href="banconomantenible.uml#_PXkX0EotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_QAmtxEotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_QAmtxUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_QAmtxkotEeipH_dXzW_EZw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_QAmtx0otEeipH_dXzW_EZw" name="retirar">
+      <modelElement href="banconomantenible.uml#_PXiioUotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_QAmtyEotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_QAmtyUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_QAmtykotEeipH_dXzW_EZw" name="x">
+        <modelElement href="banconomantenible.uml#_PXiiokotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_QAmty0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_QAmtzEotEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_QAmtzUotEeipH_dXzW_EZw" name="ingresar">
+      <modelElement href="banconomantenible.uml#_PXjJsEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_QAmtzkotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_QAmtz0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_QAmt0EotEeipH_dXzW_EZw" name="x">
+        <modelElement href="banconomantenible.uml#_PXjJsUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_QAmt0UotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_QAmt0kotEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_QAmt00otEeipH_dXzW_EZw" name="pagoEnEstablecimiento">
+      <modelElement href="banconomantenible.uml#_PXjwwEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_QAmt1EotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_QAmt1UotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_QAmt1kotEeipH_dXzW_EZw" name="datos">
+        <modelElement href="banconomantenible.uml#_PXjwwUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_QAmt10otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_QAmt2EotEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QAmt2UotEeipH_dXzW_EZw" name="x">
+        <modelElement href="banconomantenible.uml#_PXjwwkotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_QAmt2kotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_QAmt20otEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_QAmt3EotEeipH_dXzW_EZw" name="setCuenta">
+      <modelElement href="banconomantenible.uml#_PX9ZYEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_QAmt3UotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_QAmt3kotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_QAmt30otEeipH_dXzW_EZw" name="c">
+        <modelElement href="banconomantenible.uml#_PX9ZYUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_QAmt4EotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_QAmt4UotEeipH_dXzW_EZw" name="Cuenta">
+          <modelElement href="banconomantenible.uml#_PXW8cEotEeipH_dXzW_EZw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_P-7SxUotEeipH_dXzW_EZw" name="Debito" associationsOut="_P-d_wEotEeipH_dXzW_EZw _P-vFhEotEeipH_dXzW_EZw">
+    <modelElement href="banconomantenible.uml#_PXam0EotEeipH_dXzW_EZw"/>
+    <visualProperties xmi:id="_P-7SxkotEeipH_dXzW_EZw" position="1105.0,846.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_P-7Sx0otEeipH_dXzW_EZw" label="+"/>
+    <attributes xmi:id="_P-7SyEotEeipH_dXzW_EZw" name="mCuentaAsociada">
+      <modelElement href="banconomantenible.uml#_PYMC4UotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P-7SyUotEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYMp8EotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P-7SykotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-7Sy0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P-7SzEotEeipH_dXzW_EZw" name="Cuenta">
+        <modelElement href="banconomantenible.uml#_PXW8cEotEeipH_dXzW_EZw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P-7SzUotEeipH_dXzW_EZw" name="mNumero">
+      <modelElement href="banconomantenible.uml#_PYMp8UotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P-7SzkotEeipH_dXzW_EZw" name="MultiDeclaration">
+        <modelElement href="banconomantenible.uml#_PYMp8kotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_P-7Sz0otEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYMp80otEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P-7S0EotEeipH_dXzW_EZw" label="~"/>
+      <cardinality xmi:id="_P-7S0UotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P-7S0kotEeipH_dXzW_EZw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P-7S00otEeipH_dXzW_EZw" name="mFechaDeCaducidad">
+      <modelElement href="banconomantenible.uml#_PYMp9EotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P-7S1EotEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYNRAEotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P-7S1UotEeipH_dXzW_EZw" label="~"/>
+      <cardinality xmi:id="_P-7S1kotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P-7S10otEeipH_dXzW_EZw" name="LocalDate">
+        <modelElement href="banconomantenible.uml#_PX02gkotEeipH_dXzW_EZw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P-7S2EotEeipH_dXzW_EZw" name="mTitular">
+      <modelElement href="banconomantenible.uml#_PYVM0EotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P-7S2UotEeipH_dXzW_EZw" name="MultiDeclaration">
+        <modelElement href="banconomantenible.uml#_PYVz4EotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_P-7S2kotEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYVz4UotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P-7S20otEeipH_dXzW_EZw" label="~"/>
+      <cardinality xmi:id="_P-7S3EotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P-7S3UotEeipH_dXzW_EZw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_P-7S3kotEeipH_dXzW_EZw" name="retirar">
+      <modelElement href="banconomantenible.uml#_PXb08EotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P-7S30otEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-7S4EotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P-7S4UotEeipH_dXzW_EZw" name="x">
+        <modelElement href="banconomantenible.uml#_PXb08UotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-7S4kotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-7S40otEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P-7S5EotEeipH_dXzW_EZw" name="ingresar">
+      <modelElement href="banconomantenible.uml#_PXccAEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P-7S5UotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-7S5kotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P-7S50otEeipH_dXzW_EZw" name="x">
+        <modelElement href="banconomantenible.uml#_PXccAUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-7S6EotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-7S6UotEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P-7S6kotEeipH_dXzW_EZw" name="pagoEnEstablecimiento">
+      <modelElement href="banconomantenible.uml#_PXccAkotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P-7S60otEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-7S7EotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P-7S7UotEeipH_dXzW_EZw" name="datos">
+        <modelElement href="banconomantenible.uml#_PXccA0otEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-7S7kotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-7S70otEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P-7S8EotEeipH_dXzW_EZw" name="x">
+        <modelElement href="banconomantenible.uml#_PXccBEotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-7S8UotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-7S8kotEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P-7S80otEeipH_dXzW_EZw" name="getSaldo">
+      <modelElement href="banconomantenible.uml#_PXdDEEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P-7S9EotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-7S9UotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P-7S9kotEeipH_dXzW_EZw">
+        <modelElement href="banconomantenible.uml#_PXdDEUotEeipH_dXzW_EZw"/>
+        <type xmi:id="_P-7S90otEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_P-7S-EotEeipH_dXzW_EZw" name="setCuenta">
+      <modelElement href="banconomantenible.uml#_PX69IEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P-7S-UotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-7S-kotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P-7S-0otEeipH_dXzW_EZw" name="c">
+        <modelElement href="banconomantenible.uml#_PX69IUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-7S_EotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-7S_UotEeipH_dXzW_EZw" name="Cuenta">
+          <modelElement href="banconomantenible.uml#_PXW8cEotEeipH_dXzW_EZw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P-7S_kotEeipH_dXzW_EZw" name="Debito">
+      <modelElement href="banconomantenible.uml#_PYEHEEotEeipH_dXzW_EZw"/>
+      <keywords xmi:id="_P-7S_0otEeipH_dXzW_EZw" keyword="create"/>
+      <visibility xmi:id="_P-7TAEotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P-7TAUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P-7TAkotEeipH_dXzW_EZw">
+        <modelElement href="banconomantenible.uml#_PYEHFkotEeipH_dXzW_EZw"/>
+        <type xmi:id="_P-7TA0otEeipH_dXzW_EZw" name="Debito">
+          <modelElement href="banconomantenible.uml#_PXam0EotEeipH_dXzW_EZw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_P-7TBEotEeipH_dXzW_EZw" name="numero">
+        <modelElement href="banconomantenible.uml#_PYEHEUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-7TBUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-7TBkotEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P-7TB0otEeipH_dXzW_EZw" name="titular">
+        <modelElement href="banconomantenible.uml#_PYEHEkotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-7TCEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-7TCUotEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P-7TCkotEeipH_dXzW_EZw" name="fechaCaducidad">
+        <modelElement href="banconomantenible.uml#_PYEHE0otEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P-7TC0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P-7TDEotEeipH_dXzW_EZw" name="LocalDate">
+          <modelElement href="banconomantenible.uml#_PX02gkotEeipH_dXzW_EZw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_P9rVkEotEeipH_dXzW_EZw" name="Credito" associationsOut="_P9qHcEotEeipH_dXzW_EZw _P9qugEotEeipH_dXzW_EZw _P9quiUotEeipH_dXzW_EZw" generalizations="_QAJawEotEeipH_dXzW_EZw">
+    <modelElement href="banconomantenible.uml#_PXNygEotEeipH_dXzW_EZw"/>
+    <visualProperties xmi:id="_P9rVkUotEeipH_dXzW_EZw" position="25.0,372.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_P9rVkkotEeipH_dXzW_EZw" label="+"/>
+    <attributes xmi:id="_P9rVk0otEeipH_dXzW_EZw" name="mCuentaAsociada">
+      <modelElement href="banconomantenible.uml#_PYHKYEotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P9rVlEotEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYHKYUotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P9rVlUotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9rVlkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P9rVl0otEeipH_dXzW_EZw" name="Cuenta">
+        <modelElement href="banconomantenible.uml#_PXW8cEotEeipH_dXzW_EZw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P9rVmEotEeipH_dXzW_EZw" name="mCredito">
+      <modelElement href="banconomantenible.uml#_PYHKYkotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P9rVmUotEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYHxcEotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P9rVmkotEeipH_dXzW_EZw" label="#"/>
+      <cardinality xmi:id="_P9rVm0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P9rVnEotEeipH_dXzW_EZw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P9rVnUotEeipH_dXzW_EZw" name="mMovimientos">
+      <modelElement href="banconomantenible.uml#_PYHxcUotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P9rVnkotEeipH_dXzW_EZw" name="Generics">
+        <modelElement href="banconomantenible.uml#_PYHxckotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_P9rVn0otEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYIYgEotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P9rVoEotEeipH_dXzW_EZw" label="#"/>
+      <cardinality xmi:id="_P9rVoUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P9rVokotEeipH_dXzW_EZw" name="Vector">
+        <modelElement href="banconomantenible.uml#_PX02gEotEeipH_dXzW_EZw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P9rVo0otEeipH_dXzW_EZw" name="mNumero">
+      <modelElement href="banconomantenible.uml#_PYIYgUotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P9rVpEotEeipH_dXzW_EZw" name="MultiDeclaration">
+        <modelElement href="banconomantenible.uml#_PYIYgkotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_P9rVpUotEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYIYg0otEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P9rVpkotEeipH_dXzW_EZw" label="~"/>
+      <cardinality xmi:id="_P9rVp0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P9rVqEotEeipH_dXzW_EZw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P9rVqUotEeipH_dXzW_EZw" name="mFechaDeCaducidad">
+      <modelElement href="banconomantenible.uml#_PYI_kEotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P9rVqkotEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYI_kUotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P9rVq0otEeipH_dXzW_EZw" label="~"/>
+      <cardinality xmi:id="_P9rVrEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P9rVrUotEeipH_dXzW_EZw" name="LocalDate">
+        <modelElement href="banconomantenible.uml#_PX02gkotEeipH_dXzW_EZw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P9rVrkotEeipH_dXzW_EZw" name="mNombreEntidad">
+      <modelElement href="banconomantenible.uml#_PYI_kkotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P9rVr0otEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYI_k0otEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P9rVsEotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9rVsUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P9rVskotEeipH_dXzW_EZw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P9rVs0otEeipH_dXzW_EZw" name="mCCV">
+      <modelElement href="banconomantenible.uml#_PYI_lEotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P9rVtEotEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYJmoEotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P9rVtUotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9rVtkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P9rVt0otEeipH_dXzW_EZw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P9rVuEotEeipH_dXzW_EZw" name="mMarcaInternacional">
+      <modelElement href="banconomantenible.uml#_PYJmoUotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P9rVuUotEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYJmokotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P9rVukotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9rVu0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P9rVvEotEeipH_dXzW_EZw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P9rVvUotEeipH_dXzW_EZw" name="mTipo">
+      <modelElement href="banconomantenible.uml#_PYJmo0otEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P9rVvkotEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYKNsEotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P9rVv0otEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9rVwEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P9rVwUotEeipH_dXzW_EZw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_P9rVwkotEeipH_dXzW_EZw" name="mTitular">
+      <modelElement href="banconomantenible.uml#_PYT-sEotEeipH_dXzW_EZw"/>
+      <stereotypes xmi:id="_P9rVw0otEeipH_dXzW_EZw" name="MultiDeclaration">
+        <modelElement href="banconomantenible.uml#_PYUlwEotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_P9rVxEotEeipH_dXzW_EZw" name="LegacyStyledElement">
+        <modelElement href="banconomantenible.uml#_PYUlwUotEeipH_dXzW_EZw"/>
+      </stereotypes>
+      <visibility xmi:id="_P9rVxUotEeipH_dXzW_EZw" label="~"/>
+      <cardinality xmi:id="_P9rVxkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <type xmi:id="_P9rVx0otEeipH_dXzW_EZw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_P9rVyEotEeipH_dXzW_EZw" name="calcularCredito">
+      <modelElement href="banconomantenible.uml#_PXQOwEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P9rVyUotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9rVykotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P9rVy0otEeipH_dXzW_EZw">
+        <modelElement href="banconomantenible.uml#_PXQOwkotEeipH_dXzW_EZw"/>
+        <type xmi:id="_P9rVzEotEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_P9rVzUotEeipH_dXzW_EZw" name="tipo">
+        <modelElement href="banconomantenible.uml#_PXQOwUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rVzkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rVz0otEeipH_dXzW_EZw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P9rV0EotEeipH_dXzW_EZw" name="retirar">
+      <modelElement href="banconomantenible.uml#_PXQ10EotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P9rV0UotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9rV0kotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P9rV00otEeipH_dXzW_EZw" name="x">
+        <modelElement href="banconomantenible.uml#_PXQ10UotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rV1EotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rV1UotEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P9rV1kotEeipH_dXzW_EZw" name="ingresar">
+      <modelElement href="banconomantenible.uml#_PXRc4EotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P9rV10otEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9rV2EotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P9rV2UotEeipH_dXzW_EZw" name="x">
+        <modelElement href="banconomantenible.uml#_PXRc4UotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rV2kotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rV20otEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P9rV3EotEeipH_dXzW_EZw" name="pagoEnEstablecimiento">
+      <modelElement href="banconomantenible.uml#_PXRc4kotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P9rV3UotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9rV3kotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P9rV30otEeipH_dXzW_EZw" name="datos">
+        <modelElement href="banconomantenible.uml#_PXRc40otEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rV4EotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rV4UotEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P9rV4kotEeipH_dXzW_EZw" name="x">
+        <modelElement href="banconomantenible.uml#_PXRc5EotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rV40otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rV5EotEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P9rV5UotEeipH_dXzW_EZw" name="getSaldo">
+      <modelElement href="banconomantenible.uml#_PXSD8EotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P9rV5kotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9rV50otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P9rV6EotEeipH_dXzW_EZw">
+        <modelElement href="banconomantenible.uml#_PXSD8UotEeipH_dXzW_EZw"/>
+        <type xmi:id="_P9rV6UotEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_P9rV6kotEeipH_dXzW_EZw" name="getCreditoDisponible">
+      <modelElement href="banconomantenible.uml#_PXSD8kotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P9rV60otEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9rV7EotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P9rV7UotEeipH_dXzW_EZw">
+        <modelElement href="banconomantenible.uml#_PXSD80otEeipH_dXzW_EZw"/>
+        <type xmi:id="_P9rV7kotEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_P9rV70otEeipH_dXzW_EZw" name="liquidar">
+      <modelElement href="banconomantenible.uml#_PXSD9EotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P9rV8EotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9rV8UotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P9rV8kotEeipH_dXzW_EZw" name="mes">
+        <modelElement href="banconomantenible.uml#_PXSD9UotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rV80otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rV9EotEeipH_dXzW_EZw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P9rV9UotEeipH_dXzW_EZw" name="anyo">
+        <modelElement href="banconomantenible.uml#_PXSD9kotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rV9kotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rV90otEeipH_dXzW_EZw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P9rV-EotEeipH_dXzW_EZw" name="liquidarPlazos">
+      <modelElement href="banconomantenible.uml#_PXSrAEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P9rV-UotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9rV-kotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P9rV-0otEeipH_dXzW_EZw" name="mes">
+        <modelElement href="banconomantenible.uml#_PXSrAUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rV_EotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rV_UotEeipH_dXzW_EZw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P9rV_kotEeipH_dXzW_EZw" name="anyo">
+        <modelElement href="banconomantenible.uml#_PXSrAkotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rV_0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rWAEotEeipH_dXzW_EZw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P9rWAUotEeipH_dXzW_EZw" name="setCuenta">
+      <modelElement href="banconomantenible.uml#_PX2rsEotEeipH_dXzW_EZw"/>
+      <visibility xmi:id="_P9rWAkotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9rWA0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_P9rWBEotEeipH_dXzW_EZw" name="c">
+        <modelElement href="banconomantenible.uml#_PX2rsUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rWBUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rWBkotEeipH_dXzW_EZw" name="Cuenta">
+          <modelElement href="banconomantenible.uml#_PXW8cEotEeipH_dXzW_EZw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P9rWB0otEeipH_dXzW_EZw" name="Credito">
+      <modelElement href="banconomantenible.uml#_PYAcsEotEeipH_dXzW_EZw"/>
+      <keywords xmi:id="_P9rWCEotEeipH_dXzW_EZw" keyword="create"/>
+      <visibility xmi:id="_P9rWCUotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9rWCkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P9rWC0otEeipH_dXzW_EZw">
+        <modelElement href="banconomantenible.uml#_PYAcukotEeipH_dXzW_EZw"/>
+        <type xmi:id="_P9rWDEotEeipH_dXzW_EZw" name="Credito">
+          <modelElement href="banconomantenible.uml#_PXNygEotEeipH_dXzW_EZw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_P9rWDUotEeipH_dXzW_EZw" name="numero">
+        <modelElement href="banconomantenible.uml#_PYAcsUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rWDkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rWD0otEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P9rWEEotEeipH_dXzW_EZw" name="titular">
+        <modelElement href="banconomantenible.uml#_PYAcskotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rWEUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rWEkotEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P9rWE0otEeipH_dXzW_EZw" name="fechacaducidad">
+        <modelElement href="banconomantenible.uml#_PYAcs0otEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rWFEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rWFUotEeipH_dXzW_EZw" name="LocalDate">
+          <modelElement href="banconomantenible.uml#_PX02gkotEeipH_dXzW_EZw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P9rWFkotEeipH_dXzW_EZw" name="credito">
+        <modelElement href="banconomantenible.uml#_PYActEotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rWF0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rWGEotEeipH_dXzW_EZw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P9rWGUotEeipH_dXzW_EZw" name="marcainternacional">
+        <modelElement href="banconomantenible.uml#_PYActUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rWGkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rWG0otEeipH_dXzW_EZw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P9rWHEotEeipH_dXzW_EZw" name="nombreentidad">
+        <modelElement href="banconomantenible.uml#_PYActkotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rWHUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rWHkotEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P9rWH0otEeipH_dXzW_EZw" name="ccv">
+        <modelElement href="banconomantenible.uml#_PYAct0otEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rWIEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rWIUotEeipH_dXzW_EZw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_P9rWIkotEeipH_dXzW_EZw" name="Credito">
+      <modelElement href="banconomantenible.uml#_PYBDwEotEeipH_dXzW_EZw"/>
+      <keywords xmi:id="_P9rWI0otEeipH_dXzW_EZw" keyword="create"/>
+      <visibility xmi:id="_P9rWJEotEeipH_dXzW_EZw" label="+"/>
+      <cardinality xmi:id="_P9rWJUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_P9rWJkotEeipH_dXzW_EZw">
+        <modelElement href="banconomantenible.uml#_PYBDykotEeipH_dXzW_EZw"/>
+        <type xmi:id="_P9rWJ0otEeipH_dXzW_EZw" name="Credito">
+          <modelElement href="banconomantenible.uml#_PXNygEotEeipH_dXzW_EZw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_P9rWKEotEeipH_dXzW_EZw" name="numero">
+        <modelElement href="banconomantenible.uml#_PYBDwUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rWKUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rWKkotEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P9rWK0otEeipH_dXzW_EZw" name="titular">
+        <modelElement href="banconomantenible.uml#_PYBDwkotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rWLEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rWLUotEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P9rWLkotEeipH_dXzW_EZw" name="fechacaducidad">
+        <modelElement href="banconomantenible.uml#_PYBDw0otEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rWL0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rWMEotEeipH_dXzW_EZw" name="LocalDate">
+          <modelElement href="banconomantenible.uml#_PX02gkotEeipH_dXzW_EZw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P9rWMUotEeipH_dXzW_EZw" name="tipo">
+        <modelElement href="banconomantenible.uml#_PYBDxEotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rWMkotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rWM0otEeipH_dXzW_EZw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P9rWNEotEeipH_dXzW_EZw" name="marcainternacional">
+        <modelElement href="banconomantenible.uml#_PYBDxUotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rWNUotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rWNkotEeipH_dXzW_EZw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P9rWN0otEeipH_dXzW_EZw" name="nombreentidad">
+        <modelElement href="banconomantenible.uml#_PYBDxkotEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rWOEotEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rWOUotEeipH_dXzW_EZw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_P9rWOkotEeipH_dXzW_EZw" name="ccv">
+        <modelElement href="banconomantenible.uml#_PYBDx0otEeipH_dXzW_EZw"/>
+        <cardinality xmi:id="_P9rWO0otEeipH_dXzW_EZw" label="1" max="1" min="1"/>
+        <type xmi:id="_P9rWPEotEeipH_dXzW_EZw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
